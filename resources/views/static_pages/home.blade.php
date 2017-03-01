@@ -15,7 +15,7 @@ this is the home page of learn laravel
 everything start from here
 </p>
 <p>
-<a class="btn btn-lg btn-success" href="#" role="button">sign up now</a>
+<a class="btn btn-lg btn-success" href="{{ route('signup') }}" role="button">sign up now</a>
 </p>
 </div> 
 @stop
